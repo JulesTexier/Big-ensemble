@@ -89,49 +89,46 @@ class __TwigTemplate_0339738e1f33aa700d1ab8ed06453529 extends Template
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-<div class=\"header\">
-    <a href=\"https://okazio-cultura.com/\">
-        <img class=\"logo\" src=\"";
-        // line 12
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/logo_okazio_RVB 2.png"), "html", null, true);
-        echo "\" alt=\"\" style=\"\">
-    </a>
-    <img src=\"";
-        // line 14
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("img/File rose-2.png"), "html", null, true);
-        echo "\" alt=\"\" style=\"width: 100px\">
-</div>
 <div class=\"example-wrapper\">
     <h1>Deviens beta-testeur.euse </h1>
+<script src=\"https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js\"></script>
+<lottie-player src=\"https://assets5.lottiefiles.com/packages/lf20_edpg3c3s.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 300px; height: 300px;\"  loop  autoplay></lottie-player>    </div>
+            ";
+        // line 14
+        echo twig_include($this->env, $context, "_dataOne.html.twig");
+        echo "
     <div>
         <span> Nous avons besoin de toi pour participer au développement de la nouvelle plateforme Okazio </span>   
     </div>
+
     <div class=\"form\">
         ";
-        // line 22
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 22, $this->source); })()), 'form_start');
+        // line 20
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 20, $this->source); })()), 'form_start');
         echo "
             <div class=\"form\">
                 <div class=\"col-auto m-1\">
                     ";
-        // line 25
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 25, $this->source); })()), "Email", [], "any", false, false, false, 25), 'widget', ["attr" => ["placeholder" => "Note ton email ici"]]);
+        // line 23
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 23, $this->source); })()), "Email", [], "any", false, false, false, 23), 'widget', ["attr" => ["placeholder" => "Note ton email ici"]]);
         echo "
                 </div>
                 <div class=\"col-auto m-1\">
                     ";
-        // line 28
-        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 28, $this->source); })()), "Enregistrer", [], "any", false, false, false, 28), 'widget');
+        // line 26
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 26, $this->source); })()), "Enregistrer", [], "any", false, false, false, 26), 'widget');
         echo "
                 </div>
             </div>
         ";
-        // line 31
-        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 31, $this->source); })()), 'form_end');
+        // line 29
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 29, $this->source); })()), 'form_end');
         echo "
     </div>
+
     <div class=\"video\">
-        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ApkxgD0frWQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
+        <iframe width=\"560\" height=\"315\" src=\"https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/videos/shutterstock_1024999937.mp4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
+
     </div>
         <h3>Découvre l'univers Okazio en vidéo</h3>
     <div class=\"bullet\">
@@ -163,6 +160,7 @@ class __TwigTemplate_0339738e1f33aa700d1ab8ed06453529 extends Template
             <div class=\"text\">Plateforme sécurisée</div>
         </div>
     </div>
+
 <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1440 320\"><path fill=\"#FACD43\" fill-opacity=\"1\" d=\"M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z\"></path></svg>
 </div>
 ";
@@ -186,7 +184,7 @@ class __TwigTemplate_0339738e1f33aa700d1ab8ed06453529 extends Template
 
     public function getDebugInfo()
     {
-        return array (  160 => 52,  151 => 46,  142 => 40,  130 => 31,  124 => 28,  118 => 25,  112 => 22,  101 => 14,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  157 => 52,  148 => 46,  139 => 40,  125 => 29,  119 => 26,  113 => 23,  107 => 20,  98 => 14,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -200,17 +198,15 @@ class __TwigTemplate_0339738e1f33aa700d1ab8ed06453529 extends Template
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
-<div class=\"header\">
-    <a href=\"https://okazio-cultura.com/\">
-        <img class=\"logo\" src=\"{{ asset('img/logo_okazio_RVB 2.png') }}\" alt=\"\" style=\"\">
-    </a>
-    <img src=\"{{ asset('img/File rose-2.png') }}\" alt=\"\" style=\"width: 100px\">
-</div>
 <div class=\"example-wrapper\">
     <h1>Deviens beta-testeur.euse </h1>
+<script src=\"https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js\"></script>
+<lottie-player src=\"https://assets5.lottiefiles.com/packages/lf20_edpg3c3s.json\"  background=\"transparent\"  speed=\"1\"  style=\"width: 300px; height: 300px;\"  loop  autoplay></lottie-player>    </div>
+            {{ include('_dataOne.html.twig') }}
     <div>
         <span> Nous avons besoin de toi pour participer au développement de la nouvelle plateforme Okazio </span>   
     </div>
+
     <div class=\"form\">
         {{ form_start(form) }}
             <div class=\"form\">
@@ -223,8 +219,10 @@ class __TwigTemplate_0339738e1f33aa700d1ab8ed06453529 extends Template
             </div>
         {{ form_end(form) }}
     </div>
+
     <div class=\"video\">
-        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ApkxgD0frWQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
+        <iframe width=\"560\" height=\"315\" src=\"https://www.fao.org/fileadmin/templates/FRA/FRA2020/src/videos/shutterstock_1024999937.mp4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>
+
     </div>
         <h3>Découvre l'univers Okazio en vidéo</h3>
     <div class=\"bullet\">
@@ -247,9 +245,10 @@ class __TwigTemplate_0339738e1f33aa700d1ab8ed06453529 extends Template
             <div class=\"text\">Plateforme sécurisée</div>
         </div>
     </div>
+
 <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1440 320\"><path fill=\"#FACD43\" fill-opacity=\"1\" d=\"M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z\"></path></svg>
 </div>
 {% endblock %}
-", "user/adduser.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/templates/user/adduser.html.twig");
+", "user/adduser.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/templates/user/adduser.html.twig");
     }
 }
