@@ -1,0 +1,212 @@
+
+/* COLORS */
+
+:root {
+  --blue:#022476;
+}
+
+
+
+
+/* FONT */
+@font-face {
+  font-family: "carena";
+  src: url("../font/carena/Carena-Regular.otf")
+}
+
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #F8F2EB;
+  }
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 4em;
+  padding: 2em;
+  width:1000px;
+}
+
+.example-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+h1{
+  font-family: "carena";
+  font-size: 5vw;
+  text-align: center;
+  color:var(--blue);
+  word-wrap: break-word;   
+
+}
+
+h3{
+  font-family: "Poppins";
+  font-size: 20px;
+  text-align: center;
+  color:var(--blue)
+}
+
+span {
+display: block;
+font-family: "Poppins";
+font-weight: 400;
+text-align: center;
+display: flex;
+justify-content: center;
+color:var(--blue)
+}
+
+.form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.video {
+  margin:3em;
+}
+
+.btn-primary {
+  background-color: var(--blue);
+  border: var(--blue);
+  border-radius: 30px;
+}
+
+button {
+  font-family: "Poppins"!important;
+
+}
+
+.bullet{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:4em;
+  justify-content: space-around;
+  min-width: 1000px;
+}
+
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.logo{
+  height:40px;
+  width: auto;
+}
+
+.png{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+.text{
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  color: var(--blue);
+  font-weight: 500;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+
+}
+
+.video { 
+  position: relative;
+  }
+
+ 
+
+/*Big smartphones [1200px]*/
+
+@media only screen and (max-width: 3000px){
+
+  h1{
+    font-size: calc(20px + 3.3vw);
+  }
+
+  span{
+    font-size: calc(5px + 3,3vw);
+  }
+
+  
+
+}
+
+/*Big smartphones [900px]*/
+
+@media only screen and (max-width: 900px){
+
+  .bullet{
+    min-width: 900px;
+  }
+
+  .video { 
+    size: 70%;
+    }
+
+}
+
+/*Small smartphones [426px -> 600px]*/
+
+@media only screen and (max-width: 600px){
+
+  body {
+    padding: 0em;
+  }
+
+.header{
+  display:flex;
+  width: 50vh;
+  justify-content: center;
+}
+
+.bullet{
+  flex-direction: column;
+  min-width: 0;
+}
+
+iframe { 
+  position: relative;
+  width: 400px;
+  height: 250px;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+
+
+
+
+
+
+
+/* .example-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+} */
+
+
+}
