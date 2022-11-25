@@ -97,6 +97,6 @@ class __TwigTemplate_a8851afa31885a93f17eaefe2b0d54aa extends Template
         </div>
     </div>
 </div>
-", "@WebProfiler/Profiler/header.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
+", "@WebProfiler/Profiler/header.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
     }
 }

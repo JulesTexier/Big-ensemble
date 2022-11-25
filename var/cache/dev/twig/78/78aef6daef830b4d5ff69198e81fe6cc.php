@@ -482,6 +482,6 @@ class __TwigTemplate_6410a6e6d87a4b2fadfd11b7f3b0d4b5 extends Template
         {% endfor %}
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/events.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
+", "@WebProfiler/Collector/events.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
     }
 }

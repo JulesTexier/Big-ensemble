@@ -71,6 +71,6 @@ class __TwigTemplate_0a831c18f922d0c00b178377dd74dba6 extends Template
     public function getSourceContext()
     {
         return new Source("{% extends \"@email/zurb_2/notification/body.html.twig\" %}
-", "@email/default/notification/body.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
+", "@email/default/notification/body.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
     }
 }

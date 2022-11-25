@@ -23,7 +23,7 @@
         "symfony/dotenv": "6.0.*",
         "symfony/expression-language": "6.0.*",
         "symfony/flex": "^2",
-        "symfony/form": "6.0.*",
+        "symfony/form": "^6.1",
         "symfony/framework-bundle": "6.0.*",
         "symfony/http-client": "6.0.*",
         "symfony/intl": "6.0.*",
@@ -32,7 +32,6 @@
         "symfony/monolog-bundle": "^3.1",
         "symfony/notifier": "6.0.*",
         "symfony/options-resolver": "6.0.*",
-        "symfony/polyfill-mbstring": "v1.23.1",
         "symfony/process": "6.0.*",
         "symfony/property-access": "6.0.*",
         "symfony/property-info": "6.0.*",
@@ -87,8 +86,7 @@
         "symfony/polyfill-php72": "*",
         "symfony/polyfill-php73": "*",
         "symfony/polyfill-php74": "*",
-        "symfony/polyfill-php80": "*",
-        "symfony/polyfill-mbstring": "*"    },
+        "symfony/polyfill-php80": "*"    },
 
 
     "scripts": {

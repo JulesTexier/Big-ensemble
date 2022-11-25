@@ -64,18 +64,18 @@ class __TwigTemplate_af1fb1ec8a41874cd80d9b319d4c7f4d extends Template
         ";
         // line 12
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 15
+        // line 16
         echo "
         ";
-        // line 16
+        // line 17
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 19
+        // line 20
         echo "    </head>
     <body>
         ";
-        // line 21
-        $this->displayBlock('body', $context, $blocks);
         // line 22
+        $this->displayBlock('body', $context, $blocks);
+        // line 23
         echo "        <script src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("style/app.js"), "html", null, true);
         echo "\"></script>
@@ -125,6 +125,7 @@ class __TwigTemplate_af1fb1ec8a41874cd80d9b319d4c7f4d extends Template
         echo "            ";
         echo twig_escape_filter($this->env, $this->env->getFunction('encore_entry_link_tags')->getCallable()("app"), "html", null, true);
         echo "
+            test
         ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -134,7 +135,7 @@ class __TwigTemplate_af1fb1ec8a41874cd80d9b319d4c7f4d extends Template
 
     }
 
-    // line 16
+    // line 17
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -144,7 +145,7 @@ class __TwigTemplate_af1fb1ec8a41874cd80d9b319d4c7f4d extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 17
+        // line 18
         echo "            ";
         echo twig_escape_filter($this->env, $this->env->getFunction('encore_entry_script_tags')->getCallable()("app"), "html", null, true);
         echo "
@@ -157,7 +158,7 @@ class __TwigTemplate_af1fb1ec8a41874cd80d9b319d4c7f4d extends Template
 
     }
 
-    // line 21
+    // line 22
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -187,7 +188,7 @@ class __TwigTemplate_af1fb1ec8a41874cd80d9b319d4c7f4d extends Template
 
     public function getDebugInfo()
     {
-        return array (  161 => 21,  148 => 17,  138 => 16,  125 => 13,  115 => 12,  96 => 5,  79 => 22,  77 => 21,  73 => 19,  71 => 16,  68 => 15,  66 => 12,  62 => 11,  53 => 5,  47 => 1,);
+        return array (  162 => 22,  149 => 18,  139 => 17,  125 => 13,  115 => 12,  96 => 5,  79 => 23,  77 => 22,  73 => 20,  71 => 17,  68 => 16,  66 => 12,  62 => 11,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -205,6 +206,7 @@ class __TwigTemplate_af1fb1ec8a41874cd80d9b319d4c7f4d extends Template
         <link rel=\"stylesheet\" href=\"{{ asset(\"style/app.css\") }}\">
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
+            test
         {% endblock %}
 
         {% block javascripts %}

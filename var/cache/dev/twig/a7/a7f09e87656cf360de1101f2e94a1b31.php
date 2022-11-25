@@ -1671,6 +1671,6 @@ class __TwigTemplate_629f65873ef35259cb7fa34ab7f05588 extends Template
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

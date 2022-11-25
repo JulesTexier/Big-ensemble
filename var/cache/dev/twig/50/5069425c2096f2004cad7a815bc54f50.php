@@ -1476,6 +1476,6 @@ $context["voter_detail"], "vote", [], "array", false, false, false, 403) == twig
         </div>
     {% endif %}
 {% endblock %}
-", "@Security/Collector/security.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/security-bundle/Resources/views/Collector/security.html.twig");
+", "@Security/Collector/security.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/security-bundle/Resources/views/Collector/security.html.twig");
     }
 }
