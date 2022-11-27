@@ -1,7 +1,7 @@
 <?php return array (
   0 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\AbstractController',
-  1 => 'App\\Controller\\UserController',
-  2 => 'App\\Entity\\User',
+  1 => 'App\\Controller\\ContactController',
+  2 => 'App\\Entity\\Contact',
   3 => 'Doctrine\\Bundle\\DoctrineBundle\\Controller\\ProfilerController',
   4 => 'Doctrine\\ORM\\Cache\\Persister\\Entity\\AbstractEntityPersister',
   5 => 'Doctrine\\ORM\\Cache\\Persister\\Entity\\CachedEntityPersister',

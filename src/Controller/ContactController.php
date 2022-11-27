@@ -6,31 +6,31 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request; // Importation de la classe Request
 use Symfony\Component\Routing\Annotation\Route;
 use Doctrine\ORM\EntityManagerInterface;
-use App\Entity\User;
-use App\Repository\UserRepository;
+use App\Entity\Contact;
+use App\Repository\ContactRepository;
 use Doctrine\Persistence\ManagerRegistry;
-use App\Form\UserType;
+use App\Form\ContactType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 
-class UserController extends AbstractController
+class ContactController extends AbstractController
 {
     #[Route('/', name: 'home')]
 
-    public function addUser(Request $request, ManagerRegistry $doctrine)
+    public function addContact(Request $request, ManagerRegistry $doctrine)
     {
-        $user = new User();
-        $form = $this->createForm(UserType::class, $user);
+        $contact = new Contact();
+        $form = $this->createForm(ContactType::class, $contact);
 
         $form->handleRequest($request);
         
         if ($form->isSubmitted() && $form->isValid()) { 
             $em = $doctrine->getManager();
-            $em->persist($user);
+            $em->persist($contact);
             $em->flush();
             return $this->redirectToRoute('thanks');            
         }
-        return $this->render('user/adduser.html.twig', [
+        return $this->render('contact/addContact.html.twig', [
             'form' => $form->createView()
         ]);
         }
@@ -41,7 +41,7 @@ class UserController extends AbstractController
 
     public function index()
     {
-        return $this->render('user/thanks.html.twig', [
+        return $this->render('contact/thanks.html.twig', [
         ]);
         }
 
