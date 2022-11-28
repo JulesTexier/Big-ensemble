@@ -156,6 +156,6 @@ array_key_exists("token", $context)) ? (_twig_default_filter((isset($context["to
     <h2>{{ messages[about].title }}</h2>
     <p>{{ messages[about].message }}</p>
 {% endblock %}
-", "@WebProfiler/Profiler/info.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/info.html.twig");
+", "@WebProfiler/Profiler/info.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/info.html.twig");
     }
 }

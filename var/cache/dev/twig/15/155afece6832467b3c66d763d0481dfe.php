@@ -1349,6 +1349,6 @@ class __TwigTemplate_4a778405c58c9f9c254c329284d3fceb extends Template
         <span>{{ route|default(controller) }}</span>
     {%- endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/request.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
+", "@WebProfiler/Collector/request.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
     }
 }

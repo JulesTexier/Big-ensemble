@@ -70,6 +70,7 @@ color:var(--blue)
   margin-top: 20px;
 }
 
+
 .video {
   margin:3em;
 }
@@ -194,19 +195,47 @@ iframe {
     align-items: center;
   }
   
+}
 
+/*DATAONE
 
+*/
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 
+.bodynum {
+  display: flex;
+  color:var(--blue);
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
 
-
-/* .example-wrapper{
+.counter-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 3em;
-} */
-
-
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
 }
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+
+
+
+/*DataTWO*/

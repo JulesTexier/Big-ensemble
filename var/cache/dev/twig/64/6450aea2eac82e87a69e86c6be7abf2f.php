@@ -434,6 +434,6 @@ class __TwigTemplate_d6c4ea832388043cfda7029f554d9d48 extends Template
     {%- set widget_class = widget_class|default('mr-2') -%}
     {{- parent() -}}
 {%- endblock radio_widget -%}
-", "tailwind_2_layout.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
+", "tailwind_2_layout.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
     }
 }

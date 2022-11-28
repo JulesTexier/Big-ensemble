@@ -710,6 +710,6 @@ class __TwigTemplate_d383570bde210c41af7f86230c859c70 extends Template
         <td class=\"font-normal\">{{ migration.execution_time|default('n/a') }}</td>
     </tr>
 {% endmacro %}
-", "@DoctrineMigrations/Collector/migrations.html.twig", "/Applications/MAMP/htdocs/cultura-okazio/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/migrations.html.twig");
+", "@DoctrineMigrations/Collector/migrations.html.twig", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/migrations.html.twig");
     }
 }

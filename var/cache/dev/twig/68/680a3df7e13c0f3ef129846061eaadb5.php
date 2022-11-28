@@ -99,6 +99,6 @@ class __TwigTemplate_034a9869d860bd7a1a39e7e7b0fb7f3d extends Template
 .container.body_default {
     border-top: 8px solid #aaaaaa;
 }
-", "@email/zurb_2/notification/local.css", "/Applications/MAMP/htdocs/cultura-okazio/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
+", "@email/zurb_2/notification/local.css", "/Users/julestexier/Google_Drive/DEV/DC/AN2/big-ensemble/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
     }
 }
