@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="{{ asset("style/app.css") }}">
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
-            test
         {% endblock %}
 
         {% block javascripts %}
@@ -20,8 +19,10 @@
     </head>
     <body>
         {% block body %}{% endblock %}
+
         <script src="{{ asset("style/app.js") }}"></script>
         <script src="https://kit.fontawesome.com/8a4707905c.js" crossorigin="anonymous"></script>
 
     </body>
+         {{ include('_footer.html.twig') }}
 </html>
