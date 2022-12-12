@@ -1,0 +1,137 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Big-ensemble{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+<div class="header">
+    <img src="{{ asset('img/logo-big.png')}}" alt="" height="150px">
+        <div class="textMenu">
+            <h5>Accueillir le projet</h5>
+            <h5>Investir</h5>
+            <h5>Faites un don</h5>
+            <h5>FAQ</h5>
+        </div>
+</div>
+
+<main>
+    <div class="cover">
+        <div class="example-wrapper">
+            <div>
+                <h1>Au coeure de l’agro-foresterie </h1>
+                <div>
+                    <span style="text-align: left; margin: 5% 0;">Lorem ipsum dolor sit amet consectetur. A elit odio elit dignissim eget pharetra odio.</span>   
+                </div>
+            </div>
+            <div class="buttonBlock">
+                <a href="#footer"><button class="buttonGreen">Formulaire</button></a>
+                <button class="buttonWhite">Faire un don</button>
+            </div>
+        </div>
+        <div>
+            <img class="tree" src="{{ asset('img/tree.png')}}" alt="" height="700px">
+        </div>
+    </div>
+
+    <div class="cardContainer">
+        <div class="card">
+            <h3>3456</h3>
+            <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+        </div>
+        <div class="card">
+            <h3>3456</h3>
+            <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+        </div>
+        <div class="card">
+            <h3>3456</h3>
+            <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+        </div>
+        <div class="card">
+
+            <h3>3456</h3>
+            <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+        </div>
+    </div>
+
+    <div class="trans">
+        <h2>Je souhaite  investir dans le projet</h2>
+    </div>
+
+    <div class="formBlock">
+        <div class="verticalCardContainer">
+            <div class="VerticalCard">
+                <img class="icon" src="{{ asset('img/tree.png')}}" alt="" height="70px">
+                <div class="verticelText">
+                    <h5>Bénévole</h5>
+                    <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+                </div>
+            </div>
+            <div class="VerticalCard">
+                <img class="icon" src="{{ asset('img/icontracteur.png')}}" alt="" height="70px">
+                <div class="verticelText">
+                    <h5>Agriculteur</h5>
+                    <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+                </div>
+            </div>
+            <div class="VerticalCard">
+                <img class="icon" src="{{ asset('img/iconMallet.png')}}" alt="" height="70px">
+                <div class="verticelText">
+                    <h5>Entreprise</h5>
+                    <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+                </div>
+            </div>
+            <div class="VerticalCard">
+                <img class="icon" src="{{ asset('img/iconplant.png')}}" alt="" height="70px">
+                <div class="verticelText">
+                    <h5>Association</h5>
+                    <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+                </div>
+            </div>
+        </div>
+        <div class="form" id="form">
+            <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <button>Valider<button>
+            </form>
+        </div>
+    </div>
+    
+
+    <div class="trans">
+        <h2>Je souhaite  investir dans le projet</h2>
+    </div>
+
+    <div class="cardContainer">
+
+        <div class="card">
+            <h3>3456</h3>
+            <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+        </div>
+        <div class="card">
+            <h3>3456</h3>
+            <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+        </div>
+        <div class="card">
+
+            <h3>3456</h3>
+            <div class="sub">Nous avons planté 3456 arbres en 2020</div>
+        </div>
+    </div>
+
+
+    <div class="trans">
+        <h2>Questions/réponses</h2>
+    </div>
+
+    <div class="trans">
+        <h2>Questions/réponses</h2>
+    </div>
+
+</main>
+{% endblock %}
