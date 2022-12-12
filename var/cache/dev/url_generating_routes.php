@@ -17,4 +17,5 @@ return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], [], []],
     'home' => [[], ['_controller' => 'App\\Controller\\ContactController::addContact'], [], [['text', '/']], [], [], []],
     'thanks' => [[], ['_controller' => 'App\\Controller\\ContactController::index'], [], [['text', '/thanks']], [], [], []],
+    'admin' => [[], ['_controller' => 'App\\Controller\\Dashboard\\DashboardController::index'], [], [['text', '/Big-Ensemble-Admin']], [], [], []],
 ];

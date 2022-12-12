@@ -15,6 +15,7 @@ return [
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
         '/' => [[['_route' => 'home', '_controller' => 'App\\Controller\\ContactController::addContact'], null, null, null, false, false, null]],
         '/thanks' => [[['_route' => 'thanks', '_controller' => 'App\\Controller\\ContactController::index'], null, null, null, false, false, null]],
+        '/Big-Ensemble-Admin' => [[['_route' => 'admin', '_controller' => 'App\\Controller\\Dashboard\\DashboardController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
